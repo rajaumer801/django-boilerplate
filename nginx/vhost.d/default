@@ -1,0 +1,9 @@
+location /static/ {
+  alias /home/app/web/{{cookiecutter.main_module}}/static/;
+  add_header Access-Control-Allow-Origin *;
+}
+
+location /media/ {
+  alias /home/app/web/{{cookiecutter.main_module}}/media/;
+  add_header Access-Control-Allow-Origin *;
+}
