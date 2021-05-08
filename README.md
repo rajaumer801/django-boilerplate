@@ -14,6 +14,6 @@ Install pipenv with `brew install pipenv` or `pip install pipenv`.
 
 1. `cd` into the new `app` folder just created.
 2. `run` pipenv sync.
-3. Run `python manage.py makemigrations` or `./manage.py runserver`
-4. Run `python manage.py migrate run` or `./manage.py runserver`
+3. Run `python manage.py makemigrations`
+4. Run `python manage.py migrate run`
 5. Run `python manage.py runserver`
