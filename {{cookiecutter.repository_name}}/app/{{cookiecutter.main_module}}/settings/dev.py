@@ -1,4 +1,4 @@
-from secure_tax.settings.base import *
+from {{cookiecutter.main_module}}.settings.base import *
 
 INTERNAL_IPS = ['127.0.0.1']
 
